@@ -18,6 +18,7 @@ To install this template, you can use the [template link](https://github.com/new
 Ensure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [node v20+](https://nodejs.org/en/download) installed,
 
 then you can clone the repository using `git clone <url>` and install the dependencies using `npm install` or `yarn install`.
+:warning: don't forget to cd into the directory before running the install command.
 
 # Configuration
 
