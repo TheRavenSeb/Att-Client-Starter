@@ -1,20 +1,30 @@
 # Welcome!!
 
-to make your first bot please [config.js](https://replit.com/@TheRavenSeb/att-client-starter#config.js)
+
 
 Bot credentials consist of `clientId`, `clientSecret` and `scope`. User credentials consist of `username` and `password`.
 
-```ts
-// my-bot-config.js
-export const myBotConfig = {
+```js
+// config.js
+// Enter if using User credentials 
+module.exports={
+   myUserConfig:{
+  username: 'TheRavenSeb',
+  password: '123456',
+  logVerbosity: 2},// Increase to see debuger logs 
+}
+```
+
+```js
+// config.js
+// Enter if using Alta provided Bot credintals 
+module.exports={
+   myBotConfig:{
   clientId: 'XXXXXX',
   clientSecret: 'XXXXXX',
-  scope: ['XXXXXX', 'XXXXXX', 'XXXXXX']
-};
-// my-user-config.js
-export const myUserConfig = {
-  username: 'TheRavenSeb',
-  password: 'password'
+  scope: ['XXXXXX', 'XXXXXX', 'XXXXXX'],
+  logVerbosity: 2
+}
 };
 ```
 
@@ -23,12 +33,14 @@ export const myUserConfig = {
 
 You should never share your login details or client ID and secret with anyone! If you're building a bot, be mindful of where you store this information, especially if you'll be committing your source code in an online repository. It's generally best practice to store your secrets in [environment variables](https://www.npmjs.com/package/dotenv), and load them from there:
 
-```ts
+```js
 // my-bot-config.js
-export const myBotConfig = {
+module.exports ={
+  myBotConfig:{
   clientId: process.env.CLIENT_ID ?? '',
   clientSecret: process.env.CLIENT_SECRET ?? ''
   // the rest of your configuration...
+}
 };
 ```
 
@@ -42,4 +54,4 @@ b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec
 ```
 
 
-(This template was made using examples and documentation from the [Att-Client Github](https://github.com/mdingena/att-client/blob/main))
+(This template was made using examples and documentation from the [Att-Client Github](https://github.com/mdingena/att-client/blob/main) )
