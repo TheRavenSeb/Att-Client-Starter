@@ -1,10 +1,12 @@
 <h1 align="center">Att Client Starter</h1>
 
 <p align="center">
-  <img alt="npm version" src="https://img.shields.io/npm/v/att-client?style=for-the-badge" />
-  <img alt="node version" src="https://img.shields.io/badge/Node_version-%3E%3D18.2.0_%3C19-green">
-  <img alt="typescript version" src="https://img.shields.io/npm/dependency-version/att-client/dev/typescript?style=for-the-badge">
-  <img alt="license" src="https://img.shields.io/badge/License-GNU-yellow" />
+  
+  <img alt="node version" src="https://img.shields.io/node/v/att-client?style=for-the-badge&logo=node.js">
+    <img alt="npm version" src="https://img.shields.io/badge/npm_version-%3E%3D7.0.0_%3C8-green?style=for-the-badge&logo=npm">
+  <img alt="license" src="https://img.shields.io/github/license/TheRavenSeb/Att-Client-Starter?style=for-the-badge" />
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/TheRavenSeb/att-client-starter?style=for-the-badge">
+
 </p>
 
 ---
