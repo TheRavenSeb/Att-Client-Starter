@@ -128,6 +128,8 @@
     seller: 200205142
   }
 }
+
+!! InventoryChanged
 {
   type: 'Subscription',
   timeStamp: '2024-08-03T04:27:35.582203Z',
